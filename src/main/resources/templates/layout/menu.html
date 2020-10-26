@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="template.css" />
+<title>Sobre</title>
+</head>
+<body>
+	<div th:fragment="header">
+		<nav id="menu">
+			<ul>
+				<li><a th:href="@{/}">Home</a></li>
+				<li><a th:href="@{/about}">Sobre</a></li>
+				<li><a th:href="@{/missao}">Missão</a></li>
+				<li><a th:href="@{/links}">Links</a></li>
+				<li><a th:href="@{/contatos}">Contato</a></li>
+			</ul>
+		</nav>
+	</div>
+</body>
+</html>

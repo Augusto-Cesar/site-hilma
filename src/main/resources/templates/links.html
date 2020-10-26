@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="template.css" />
+<title>Links</title>
+</head>
+<body>
+	<div th:replace="layout/menu :: header"></div>
+    <div th:replace="layout/submenu :: submenu"></div>
+    
+    <h3>Site: <a href="https://psicologahilmabarreto.negocio.site/" 
+    	th:text="#{site}" target="blank"></a></h3>
+    <h3>Facebook: <a href="https://www.facebook.com/psicologahilmabarreto/" 
+    	th:text="#{facebook}" target="blank"></a></h3>
+</nav>
+</body>
+</html>
